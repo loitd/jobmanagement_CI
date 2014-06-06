@@ -1,0 +1,151 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background-color: #C0C0C0;
+	color: #000;
+	font-family: "Varela Round", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+input {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	-webkit-appearance: none;
+}
+
+/*-- Main Navigation --*/
+#header{
+    
+}
+
+#header ul{
+    list-style: none;
+}
+
+#header ul li{
+    display: inline-block;
+    width: 100px;
+    background-color: #f95252;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 18px;
+    height: 38px;
+	line-height: 38px;
+	padding: 10px 10px; 
+	text-align: center;
+}
+
+#header ul li a{
+    text-decoration: none;
+    color: #fff;
+	line-height: 38px;
+}
+
+#header ul li a:hover{
+    color: #E2E2E2;
+}
+
+/*-- Bottom Navi --*/
+#footer{
+    position: absolute;
+    bottom: 5px;
+    background: #3F4851;
+    color: #fff;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* ---------- LOGIN ---------- */
+
+#form {
+	margin: 50px auto;
+	width: 1000px;
+	padding-bottom: 10px;
+}
+
+#form h2 {
+	background-color: #f95252;
+	-webkit-border-radius: 20px 20px 0 0;
+	-moz-border-radius: 20px 20px 0 0;
+	border-radius: 20px 20px 0 0;
+	color: #fff;
+	font-size: 28px;
+	padding: 20px 26px;
+}
+
+#form h2 span[class*="fontawesome-"] {
+	margin-right: 14px;
+}
+
+form {
+	background-color: #fff;
+	-webkit-border-radius: 0 0 20px 20px;
+	-moz-border-radius: 0 0 20px 20px;
+	border-radius: 0 0 20px 20px;
+	padding: 20px 26px;
+
+}
+
+form input, label, select, textarea {
+	color: #777;
+	margin-bottom: 14px;
+}
+
+form input {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+form input[type="text"], 
+form input[type="password"] {
+	background-color: #eee;
+	color: #777;
+	padding: 4px 10px;
+	width: 328px;
+}
+
+form input[type="submit"] {
+	background-color: #33cc77;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 4px 0;
+	width: 150px;
+}
+
+form input[type="submit"]:hover {
+	background-color: #28ad63;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
